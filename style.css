@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff9a8b, #ff6a88, #ff99ac);
+  font-family: 'Arial', sans-serif;
+}
+
+.center-text {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 20px 40px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
